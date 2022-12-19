@@ -19,5 +19,5 @@ if(num<0)//проверка на отрицательные числа
     }
     else
     {
-        Console.WriteLine($"{(num/10)%10}");
+        Console.WriteLine($"Вторая цифра числа {num}->{(num/10)%10}");
     }
